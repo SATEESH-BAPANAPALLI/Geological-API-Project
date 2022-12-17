@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerr{
+    width: 1728px;
+    height: 2801px;
+}
+
+.container .section-1 {
+    position: absolute;
+    width: 1728px;
+    height: 1271px;
+    left: 0px;
+    top: 0px;
+    /* background: #000000; */
+} 
+
+.container .section-1 .title{
+    position: absolute;
+    width: 692.27px;
+    height: 144px;
+    left: 518px;
+    top: 101px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+
+    color: #FFFFFF;
+}
+
+.container .section-1 .span-text .latitude{
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #FFFFFF;
+
+    left: 154px;
+    top: 323px;
+}
+
+.container .section-1 .span-text .longitude{
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #FFFFFF;
+
+    left: 887px;
+    top: 335px;
+}
+
+
+/* .container .section-2 {}
+    position: absolute;
+    width: 1728px;
+    height: 1530px;
+    left: 0px;
+    top: 1271px;
+    /* background: #000000; */
+
+/* .container .section-2 .heading2 {
+    position: absolute;
+    width: 912px;
+    height: 160px;
+    left: 62px;
+    top: 1389px;
+    padding-left: 10rem; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    color: #000000;
+} */
+
+
+.data-show {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    padding: 10px 20px 30px;
+    width: 70%;
+    height: 100%;
+    left: 62px;
+    top: 1136px;
+    border: 2px solid #000000;
+}
+
+.data-show p {
+    width: 669.46px;
+    width: 100%;
+    height: 100%;
+    top: 1192px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+.description span{
+    margin-left: 50%;
+}
+
